@@ -19,4 +19,10 @@ public class TestActivityTest {
     public void shouldBeAbleToLaunchHomeScreen(){
         onView(withText("Contadores de vidas")).check(ViewAssertions.matches(isDisplayed()));
     }
+
+    @Test
+    public void shouldNotAbleToLaunchHomeScreen(){
+        // TO CHECK Circle CI
+        onView(withText("Contadores de vidas")).check(ViewAssertions.matches(isDisplayed()));
+    }
 }
