@@ -4,7 +4,7 @@
 
 general:
     artifacts:
-        - /home/luciano/IntegrationTests/AndroidMTG/app/build/outputs/apk/
+        - /home/luciano/magic_assistant/app/build/outputs/apk/
 
 machine:
     environment:
